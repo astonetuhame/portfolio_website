@@ -7,3 +7,46 @@ body{
     margin-right: 15%;
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
 }
+
+.menu{
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.menu-item{
+    font-size: 22px;
+    padding: 10px;
+}
+
+.menu-item a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.menu-item a:hover{
+    color: #FFFFFF;
+    font-weight: 700;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    background: rgb(255, 208, 35);
+    font-size: 16px;
+    font-weight: 500;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
