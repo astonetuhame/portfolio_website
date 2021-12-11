@@ -117,6 +117,128 @@ h1{
     text-decoration: none;
 }
 
+.sec_por {
+    font-size: 18px;
+    font-weight: 300;
+    margin: 8px 0px 0px 0px;
+}
+
+
+.container_lev{
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    background: #FFFFFF;
+}
+
+.container_sublev{
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 10px;
+    padding: 10px;
+
+}
+
+.item_lev{
+    text-align: left;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.level{
+    height: 15px;
+    width: 200px;
+    background: rgb(224, 224, 224);
+    border-radius: 10px;
+}
+
+.level1{
+    height: 15px;
+    width: 80%;
+    background: rgb(240, 225, 24);
+    border-radius: 10px;
+}
+
+.sec_por2 {
+    font-size: 18px;
+    font-weight: 300;
+    margin: 38px 0px 0px 0px;
+}
+
+.level_exp{
+    font-size: 14px;
+    width: 200px;
+    background: rgb(224,224,224);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.form_group{
+    background: rgb(255, 208, 35);
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    margin: 30px;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 4px rgb(240, 231, 92);
+}
+
+.form1{
+    margin-top: 15px;
+}
+
+.form2{
+    margin-top: 45px;
+}
+
+.form3{
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.subform{
+    border: none;
+    border-bottom: 1px solid #333;
+    font-size: 22px;
+    letter-spacing: 1px;
+    background: rgb(250, 210, 36);
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    outline: none;
+}
+
+.subform::placeholder{
+    color: #333;
+    font-weight: 500;
+}
+
+.subform:focus{
+    border-bottom: 1px solid rgb(224, 20, 20);
+}
+
+.subform_btn{
+    background: none;
+    border: none;
+    color: rgb(224, 20, 20);
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 22px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
